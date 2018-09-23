@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_pause_background">
+
+    <ImageView
+        android:id="@+id/img_music_volume"
+        android:layout_width="305dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_music_volume"
+        app:srcCompat="@drawable/volume" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:text="Letter Mixer"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/dialog_pause_option_button"
+        android:text="@string/btn_resume"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_music_volume" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dialog_pause_option_button"
+        android:text="@string/btn_restart"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dialog_pause_option_button"
+        android:text="@string/btn_exit"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/img_sound_volume"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/volume" />
+
+    <ImageView
+        android:id="@+id/img_sound_quieter"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        app:layout_constraintStart_toStartOf="@+id/img_sound_volume"
+        app:layout_constraintTop_toTopOf="@+id/img_sound_volume"
+        app:srcCompat="@drawable/volume_quieter_button" />
+
+    <ImageView
+        android:id="@+id/img_sound_louder"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        app:layout_constraintEnd_toEndOf="@+id/img_sound_volume"
+        app:layout_constraintTop_toTopOf="@+id/img_sound_volume"
+        app:srcCompat="@drawable/volume_louder_button" />
+
+    <ImageView
+        android:id="@+id/img_sound_level"
+        android:layout_width="246dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/img_sound_louder"
+        app:layout_constraintStart_toStartOf="@+id/img_sound_quieter"
+        app:layout_constraintTop_toTopOf="@+id/img_sound_volume"
+        app:srcCompat="@drawable/volume_level_09" />
+
+    <TextView
+        android:id="@+id/txt_sound_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="SOUND VOLUME"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/txt_music_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="MUSIC VOLUME"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_sound_level" />
+
+    <ImageView
+        android:id="@+id/img_music_quieter"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="@+id/img_music_volume"
+        app:layout_constraintTop_toBottomOf="@+id/txt_music_volume"
+        app:srcCompat="@drawable/volume_quieter_button" />
+
+    <ImageView
+        android:id="@+id/img_music_louder"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/img_music_volume"
+        app:layout_constraintTop_toBottomOf="@+id/txt_music_volume"
+        app:srcCompat="@drawable/volume_louder_button" />
+
+    <ImageView
+        android:id="@+id/img_music_level"
+        android:layout_width="246dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/img_music_louder"
+        app:layout_constraintStart_toStartOf="@+id/img_music_quieter"
+        app:layout_constraintTop_toBottomOf="@+id/txt_music_volume"
+        app:srcCompat="@drawable/volume_level_09" />
+</android.support.constraint.ConstraintLayout>

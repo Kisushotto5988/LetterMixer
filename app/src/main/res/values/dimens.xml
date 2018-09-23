@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_ans_scale">55dp</dimen>
+    <dimen name="btn_ans_text_size"></dimen>
+</resources>

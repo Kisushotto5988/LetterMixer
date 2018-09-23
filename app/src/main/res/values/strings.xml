@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LetterMixer</string>
+
+    <string name="btn_text"> </string>
+    <string name="btn_hint">HINT</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_restart">Restart</string>
+    <string name="btn_exit">Main menu</string>
+</resources>

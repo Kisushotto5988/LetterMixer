@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000</color>
+    <color name="button_pressed">#4DD0E1</color>
+    <color name="button_shadow">#dcdcdc</color>
+
+    <color name="btn_del">#DD2C00</color>
+    <color name="btn_hint_def">#FFB74D</color>
+    <color name="btn_submit">#64DD17</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pageBackgroundDefault">#BA68C8</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="white">#ffffff</color>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="page_background_style" format="reference"></attr>
+    <attr name="btn_ans_style" format="reference"></attr>
+    <attr name="btn_ans_place_middle_style" format="reference"></attr>
+    <attr name="btn_ans_place_left_style" format="reference"></attr>
+    <attr name="btn_ans_place_right_style" format="reference"></attr>
+    <attr name="btn_del_style" format="reference"></attr>
+    <attr name="btn_sub_style" format="reference"></attr>
+    <attr name="btn_quit_style" format="reference"></attr>
+    <attr name="btn_help_style" format="reference"></attr>
+    <attr name="btn_hint_style" format="reference"></attr>
+    <attr name="ans_group_style" format="reference"></attr>
+    <attr name="time_style" format="reference"></attr>
+</resources>

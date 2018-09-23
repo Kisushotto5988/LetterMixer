@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Default" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="page_background_style">@style/page_background_def</item>
+
+        <item name="btn_ans_style">@style/btn_ans_def</item>
+
+        <item name="btn_ans_place_middle_style">@style/btn_ans_place_middle_def</item>
+        <item name="btn_ans_place_left_style">@style/btn_ans_place_left_def</item>
+        <item name="btn_ans_place_right_style">@style/btn_ans_place_right_def</item>
+
+        <item name="btn_del_style">@style/btn_del_def</item>
+        <item name="btn_sub_style">@style/btn_sub_def</item>
+        <item name="btn_help_style">@style/btn_help_def</item>
+        <item name="btn_quit_style">@style/btn_quit_def</item>
+        <item name="btn_hint_style">@style/btn_hint_def</item>
+
+        <item name="ans_group_style">@style/ans_group_def</item>
+
+        <item name="time_style">@style/time_def</item>
+    </style>
+
+</resources>
